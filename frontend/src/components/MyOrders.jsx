@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   const role = localStorage.getItem("role");
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
 
   // Redirect if the user is not an admin
   if (role !== "user") {

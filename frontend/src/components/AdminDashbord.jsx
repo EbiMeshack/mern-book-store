@@ -5,7 +5,7 @@ import { Link, Navigate } from "react-router-dom";
 const AdminDashboard = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
   const role = localStorage.getItem("role");
 
   // Redirect if the user is not an admin

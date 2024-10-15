@@ -4,7 +4,7 @@ import { useParams, useNavigate, Navigate } from "react-router-dom";
 
 const AdminForm = () => {
   const { id } = useParams(); // Get the book ID from the URL
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
   const [bookData, setBookData] = useState({
     title: "",
     author: "",

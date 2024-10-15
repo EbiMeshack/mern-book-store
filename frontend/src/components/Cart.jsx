@@ -7,7 +7,7 @@ const Cart = () => {
   const [error, setError] = useState(null); // State to handle fetch errors
   const navigate = useNavigate();
   const role = localStorage.getItem("role");
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
 
   // Redirect if the user is not a user
   if (role !== "user") {

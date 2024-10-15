@@ -8,7 +8,7 @@ const BookDetail = ({ isAdmin }) => {
   const [book, setBook] = useState({});
   const [quantity, setQuantity] = useState(1); // Default quantity is 1
   const [error, setError] = useState(null);
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
 
   // Fetch book details based on book ID
   useEffect(() => {

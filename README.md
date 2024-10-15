@@ -49,6 +49,12 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that fu
    npm install
    ```
 
+   Install Tailwind CSS using npm:
+
+   ```bash
+   npm install -D tailwindcss postcss autoprefixer
+   ```
+
 3. Set up environment variables by creating a `.env` file in the `backend` directory:
 
    ```bash
@@ -70,3 +76,5 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that fu
   cd frontend
   npm run dev
   ```
+
+## Thats it your website is ready to use ✨

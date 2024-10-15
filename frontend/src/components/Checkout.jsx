@@ -10,7 +10,7 @@ const Checkout = () => {
   const [paymentMethod, setPaymentMethod] = useState("credit-card");
   const [errorMessage, setErrorMessage] = useState(""); // State for error messages
   const [loading, setLoading] = useState(false); // State for loading indicator
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
 
   // Calculate total amount (for a single book)
   const totalAmount = item ? item.bookId.price * item.quantity : 0;

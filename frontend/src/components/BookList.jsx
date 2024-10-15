@@ -4,7 +4,7 @@ import axios from "axios";
 
 const BookList = () => {
   const [books, setBooks] = useState([]);
-  const defaultUrl = "http://192.168.0.106:5000";
+  const defaultUrl = "http://localhost:5000";
 
   useEffect(() => {
     const fetchBooks = async () => {
